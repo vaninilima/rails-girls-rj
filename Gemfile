@@ -16,8 +16,10 @@ end
 group :production do
   gem 'pg'
 end
+gem 'devise'
 #  pequeno software que nos permita fazer o upload de arquivos no Rails
 gem 'carrierwave'
+gem 'mini_magick', '3.8.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
